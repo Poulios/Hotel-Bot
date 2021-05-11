@@ -19,17 +19,16 @@ In order to create a chatbot that achieves the above functionality goals we star
 - [Code documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=js)
 
 The **NLP Bot** distingues 3 intents (q_sample-qna **Goals #1 & #2**, RoomAvailability ability **Goal #3.i**, BookDetails **Goal #3.ii**).
-The code of **dispatchBot**
+The code of [dispatchBot](/bots/dispatchBot.js). 
 
 **Prompt for user input**
 - [repo](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs/44.prompt-for-user-input)
 - [Code documentation](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-primitive-prompts?view=azure-bot-service-4.0&tabs=javascript)
 
-The **customPromptBot** prompts customer for input data and validate booking details (**Goal 3.i**). Also, it is able to extract details from input customer's statement and validate details (**Goal 3.ii**). The **customPromptBot** role is to collect the necessary details that are required to execute the query for RoomAvailability and BookDetails intents. 
-The code of **customPromptBot**
+The **customPromptBot** prompts customer for input data and validate booking details (**Goal 3.i**). Also, it is able to extract details from input customer's statement and validate details (**Goal 3.ii**). The **customPromptBot** role is to collect the necessary details that are required to execute the query for RoomAvailability and BookDetails intents. The code of [customPromptBot](/bots/customPromptBot.js).
 
 The chatbot executes queries in a **SQL Database** that supports the hotel management system. Tables about rooms and booking records have been created and filled up with data for testing.
-The code for **SQL**
+The [SQL code](/DatabaseScripts). 
 
 Demo videos can be found here:
 1. [Demo1](https://www.youtube.com/watch?v=Q6BJMb451XA&t=24s&ab_channel=EvangelosPoulios)
